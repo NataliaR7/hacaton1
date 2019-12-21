@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node --experimental-modules server.mjs"
   },
+  "engines": {
+    "node": "13.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NataliaR7/hacaton1.git"

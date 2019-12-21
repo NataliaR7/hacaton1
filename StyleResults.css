@@ -1,0 +1,14 @@
+.elementList {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.elementList p {
+    margin: 6px;
+
+}
+
+.textList {
+    font-size: 18px;
+}

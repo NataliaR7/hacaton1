@@ -2,7 +2,7 @@
   "name": "hacaton1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.mjs",
   "scripts": {
     "start": "node --experimental-modules server.mjs"
   },

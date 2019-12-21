@@ -13,28 +13,34 @@ let source = [
 let body = document.querySelector('.results');
 for(let i = 0; i < source.length; i++)
 {
+    let div = document.createElement('div');
     let question = document.createElement('h2');
     question.append(source[i].question);
-    body.append(question);
+    div.append(question);
     for(let j = 0; j < source[i].data.length; j++)
     {
         if(source[i].data[j].type !== 'text')
         {
+            let countQuestion =  document.createElement('div');
             let answer = document.createElement('p');
             answer.append(source[i].data[j].answer[0]);
             let count = document.createElement('p');
             count.append(source[i].data[j].countAnswers);
-            body.append(answer, count);
+            countQuestion.append(answer, count);
+            div.append(countQuestion);
         }
         else
         {
+            let countQuestion =  document.createElement('div');
             let count = document.createElement('p');
             count.append("Количество ответов: ", source[i].data[j].countAnswers);
             let answers = document.createElement('p');
             answers.append(source[i].data[j].answer);
-            body.append(count, answers);
+            countQuestion.append(count, answers);
+            div.append(countQuestion);
         }
     }
+    body.append(div);
 }
 
 // let questionsMap = new Map();

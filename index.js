@@ -31,7 +31,7 @@ function addQuestion() {
                     answerCount++;
                     let questionDiv = document.createElement('div');
                     let span = document.createElement('span');
-                    span.textContent = answerCount.toString();
+                    span.textContent = answerCount.toString()+'.';
                     let input = document.createElement('input');
                     input.setAttribute('type', 'text');
                     input.setAttribute('name', 'answer' + answerCount);
@@ -71,7 +71,7 @@ function getRadioElement(text) {
     label.textContent = text;
     let radioInput = document.createElement('input');
     radioInput.setAttribute('type', 'radio');
-    radioInput.setAttribute('name', 'questionType' + questionCount);
+    radioInput.setAttribute('name', 'questionType');
     radioInput.setAttribute('value', text);
     if (text === 'radio' || text === 'checkbox') {
         label.setAttribute('needAnswers', 'true')

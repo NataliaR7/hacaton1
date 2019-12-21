@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e81eb6cd-2e65-4c65-ac05-c8343f89d907" name="Default Changelist" comment="" />
+    <list default="true" id="e81eb6cd-2e65-4c65-ac05-c8343f89d907" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,7 +48,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.constructor.html">
+  <component name="RunManager" selected="JavaScript Debug.constructor.html (1)">
+    <configuration name="constructor.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hacaton1/constructor.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="constructor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/constructor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -53,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
         <item itemvalue="JavaScript Debug.constructor.html" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.test.js" />
@@ -70,10 +81,22 @@
       <option name="presentableId" value="Default" />
       <updated>1576913937980</updated>
       <workItem from="1576913948841" duration="8857000" />
+      <workItem from="1576923047721" duration="2156000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -22,9 +22,19 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> origin/startForm
 =======
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,12 +66,18 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.constructor.html">
 =======
+=======
+>>>>>>> origin/startForm
   <component name="RunManager" selected="JavaScript Debug.constructor.html (1)">
     <configuration name="constructor.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hacaton1/constructor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
     <configuration name="constructor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/constructor.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -75,6 +91,10 @@
     <recent_temporary>
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
+>>>>>>> origin/startForm
 =======
         <item itemvalue="JavaScript Debug.constructor.html (1)" />
 >>>>>>> origin/startForm
@@ -96,8 +116,12 @@
       <updated>1576913937980</updated>
       <workItem from="1576913948841" duration="8857000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <workItem from="1576923047721" duration="986000" />
+>>>>>>> origin/startForm
+=======
+      <workItem from="1576923047721" duration="1949000" />
 >>>>>>> origin/startForm
     </task>
     <servers />
@@ -106,7 +130,10 @@
     <option name="version" value="1" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/startForm
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -118,5 +145,8 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
 </project>

@@ -72,6 +72,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.constructor.html">
 =======
 =======
@@ -98,6 +100,9 @@
 =======
 >>>>>>> origin/startForm
   <component name="RunManager" selected="JavaScript Debug.constructor.html (1)">
+=======
+  <component name="RunManager" selected="JavaScript Debug.constructor.html">
+>>>>>>> origin/startForm
     <configuration name="constructor.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hacaton1/constructor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -120,12 +125,19 @@
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.constructor.html" />
+      <item itemvalue="JavaScript Debug.constructor.html (1)" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.test.js" />
+    </list>
     <recent_temporary>
       <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <item itemvalue="JavaScript Debug.constructor.html (1)" />
 >>>>>>> origin/startForm
@@ -137,8 +149,11 @@
 >>>>>>> origin/startForm
 =======
         <item itemvalue="JavaScript Debug.constructor.html (1)" />
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
         <item itemvalue="JavaScript Debug.constructor.html" />
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
@@ -159,6 +174,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <workItem from="1576923047721" duration="986000" />
 >>>>>>> origin/startForm
@@ -170,6 +186,9 @@
 >>>>>>> origin/startForm
 =======
       <workItem from="1576923047721" duration="2525000" />
+>>>>>>> origin/startForm
+=======
+      <workItem from="1576923047721" duration="6568000" />
 >>>>>>> origin/startForm
     </task>
     <servers />

@@ -22,8 +22,8 @@ app.post("/vanyaHouse", (req, res) => {
     res.redirect('./');
 });
 
-app.get("/", (_, res) => {
-    res.sendFile(path.join("/constructor.html"))
+app.get("/*", (_, res) => {
+    res.sendFile(path.join(rootDir, "/constructor.html"))
 });
 
 const server = app.listen(5000);

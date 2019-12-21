@@ -1,10 +1,12 @@
-.questionContainer{
+.questionContainer {
     display: inline-flex;
     flex-direction: column;
 }
 
-.questionItem{
+.questionItem {
     border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px;
     display: inline-flex;
     flex-direction: column;
     margin: 10px 10px;
@@ -12,4 +14,16 @@
 
 #questionForm label {
     display: block;
+}
+
+button {
+    all: unset;
+    border: #ff7527 solid 1px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: #ff5a17 solid 2px;
 }

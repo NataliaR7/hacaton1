@@ -2,6 +2,12 @@ let questionCount = 0;
 
 function addQuestion() {
     questionCount++;
+    console.log(questionCount);
+    let id = Math.random().toString().slice(2);
+    let quizId = document.createElement('input');
+    quizId.setAttribute('name', 'quizId');
+    quizId.setAttribute('type', 'hidden');
+    quizId.setAttribute('value', id);
     let form = document.querySelector('#questionForm');
     let div = document.createElement('div');
     div.classList.add('questionItem');
@@ -25,8 +31,9 @@ function addQuestion() {
                 button.addEventListener('click', () => {
                     answerCount++;
                     let questionDiv = document.createElement('div');
+                    questionDiv.style.marginTop = '10px'
                     let span = document.createElement('span');
-                    span.textContent = answerCount.toString();
+                    span.textContent = answerCount.toString() + '.';
                     let input = document.createElement('input');
                     input.setAttribute('type', 'text');
                     input.setAttribute('name', 'answer' + questionCount + answerCount);
@@ -35,7 +42,18 @@ function addQuestion() {
                     answerContainer.insertAdjacentElement('beforeend', questionDiv);
                     div.insertAdjacentElement('beforeend', answerContainer);
                 });
+                let deleteButton = document.createElement('button');
+                deleteButton.setAttribute('type', 'button')
+                deleteButton.textContent = 'Удалить последний ответ';
+                deleteButton.addEventListener('click', () => {
+                    let lastChild = answerContainer.lastChild;
+                    if (lastChild.tagName === 'DIV') {
+                        lastChild.remove();
+                        answerCount--;
+                    }
+                })
                 answerContainer.insertAdjacentElement('beforeend', button);
+                answerContainer.insertAdjacentElement('beforeend', deleteButton);
                 if (!div.querySelector('#answerContainer')) {
                     div.insertAdjacentElement('beforeend', answerContainer);
                 }
@@ -46,7 +64,8 @@ function addQuestion() {
         div.insertAdjacentElement('beforeend', element);
     }
     form.insertAdjacentElement('beforeend', div);
-    document.body.insertAdjacentElement('beforeend', form)
+    document.body.insertAdjacentElement('beforeend', quizId)
+    document.body.insertAdjacentElement('beforeend', form);
 }
 
 function getRadioElement(text) {
@@ -64,5 +83,13 @@ function getRadioElement(text) {
     label.setAttribute('value', text);
     label.insertAdjacentElement('afterbegin', radioInput);
     return label;
+}
+
+function deleteLastQuestion() {
+    let questions = document.querySelectorAll('.questionItem');
+    questions[questions.length - 1].remove();
+    if (questions){
+        questionCount--;
+    }
 }
 

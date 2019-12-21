@@ -23,10 +23,11 @@ for(let i = 0; i < source.length; i++)
         {
             let countQuestion =  document.createElement('div');
             let answer = document.createElement('p');
-            answer.append(source[i].data[j].answer[0]);
+            answer.append(source[i].data[j].answer[0] +  " :");
             let count = document.createElement('p');
             count.append(source[i].data[j].countAnswers);
             countQuestion.append(answer, count);
+            countQuestion.className = 'elementList';
             div.append(countQuestion);
         }
         else
@@ -37,6 +38,7 @@ for(let i = 0; i < source.length; i++)
             let answers = document.createElement('p');
             answers.append(source[i].data[j].answer);
             countQuestion.append(count, answers);
+            countQuestion.className = 'textList';
             div.append(countQuestion);
         }
     }

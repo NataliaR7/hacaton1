@@ -2,6 +2,11 @@ let questionCount = 0;
 
 function addQuestion() {
     questionCount++;
+    let id = Math.random().toString().slice(2) ;
+    let quizId = document.createElement('input');
+    quizId.setAttribute('name','quizId');
+    quizId.setAttribute('type','hidden');
+    quizId.setAttribute('value',id);
     let form = document.querySelector('#questionForm');
     let div = document.createElement('div');
     div.classList.add('questionItem');
@@ -46,7 +51,8 @@ function addQuestion() {
         div.insertAdjacentElement('beforeend', element);
     }
     form.insertAdjacentElement('beforeend', div);
-    document.body.insertAdjacentElement('beforeend', form)
+    document.body.insertAdjacentElement('beforeend', quizId)
+    document.body.insertAdjacentElement('beforeend', form);
 }
 
 function getRadioElement(text) {

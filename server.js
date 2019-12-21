@@ -1,4 +1,20 @@
+import express from "express";
 import WebSocket from "ws";
+
+
+const app = express();
+
+app.use(express.static(path.join(process.cwd(), "client")));
+
+app.get("/setResults", (req, res) => {
+    console.log(req);
+});
+
+app.get("/*", (_, res) => {
+    res.send("Place(holder)");
+});
+
+const server = app.listen(port);
 
 
 let questions = new Map();
@@ -34,7 +50,6 @@ let obj = {
 let obj1 = {
     questions: [],
     answers: {
-        type: '',
         question: '',
         answers: []
     }

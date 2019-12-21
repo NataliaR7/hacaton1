@@ -32,3 +32,7 @@ for(let i = 0; i < source.length; i++) {
         }
     }
 }
+
+let submit = document.createElement('input');
+submit.type = 'submit';
+form.append(submit);

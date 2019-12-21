@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e81eb6cd-2e65-4c65-ac05-c8343f89d907" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/1590823-200.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/constructor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -26,7 +27,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576913937980</updated>
       <workItem from="1576913948841" duration="8857000" />
-      <workItem from="1576923047721" duration="6568000" />
+      <workItem from="1576923047721" duration="8492000" />
     </task>
     <servers />
   </component>
@@ -107,5 +112,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

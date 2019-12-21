@@ -15,6 +15,16 @@ function addQuestion() {
     question.setAttribute('type', 'text');
     question.placeholder = 'Введите вопрос';
     question.setAttribute('name', 'question');
+    let closeButton = document.createElement('button');
+    closeButton.setAttribute('type', 'button');
+    closeButton.classList.add('closeButton');
+    closeButton.addEventListener('click', () => {
+            div.remove();
+            if (questionCount !== 0)
+                questionCount--;
+        }
+    );
+    div.insertAdjacentElement('beforeend', closeButton);
     div.insertAdjacentElement('beforeend', question);
     let typeArray = [getRadioElement('radio'), getRadioElement('checkbox'), getRadioElement('text')];
     for (let element of typeArray) {
@@ -35,25 +45,23 @@ function addQuestion() {
                     let span = document.createElement('span');
                     span.textContent = answerCount.toString() + '.';
                     let input = document.createElement('input');
+                    let deleteQuestionButton = document.createElement('button');
+                    deleteQuestionButton.setAttribute('type', 'button');
+                    deleteQuestionButton.classList.add('closeButton');
+                    deleteQuestionButton.addEventListener('click', () => {
+                        questionDiv.remove()
+                        if (questionCount !== 0)
+                            questionCount--;
+                    })
                     input.setAttribute('type', 'text');
                     input.setAttribute('name', 'answer' + answerCount);
                     questionDiv.insertAdjacentElement('beforeend', span);
                     questionDiv.insertAdjacentElement('beforeend', input);
+                    questionDiv.insertAdjacentElement('beforeend', deleteQuestionButton);
                     answerContainer.insertAdjacentElement('beforeend', questionDiv);
                     div.insertAdjacentElement('beforeend', answerContainer);
                 });
-                let deleteButton = document.createElement('button');
-                deleteButton.setAttribute('type', 'button')
-                deleteButton.textContent = 'Удалить последний ответ';
-                deleteButton.addEventListener('click', () => {
-                    let lastChild = answerContainer.lastChild;
-                    if (lastChild.tagName === 'DIV') {
-                        lastChild.remove();
-                        answerCount--;
-                    }
-                })
                 answerContainer.insertAdjacentElement('beforeend', button);
-                answerContainer.insertAdjacentElement('beforeend', deleteButton);
                 if (!div.querySelector('#answerContainer')) {
                     div.insertAdjacentElement('beforeend', answerContainer);
                 }
@@ -83,13 +91,5 @@ function getRadioElement(text) {
     label.setAttribute('value', text);
     label.insertAdjacentElement('afterbegin', radioInput);
     return label;
-}
-
-function deleteLastQuestion() {
-    let questions = document.querySelectorAll('.questionItem');
-    questions[questions.length - 1].remove();
-    if (questions){
-        questionCount--;
-    }
 }
 

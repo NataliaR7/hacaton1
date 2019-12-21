@@ -12,18 +12,33 @@
     margin: 10px 10px;
 }
 
+.closeButton{
+    all: unset;
+    width: 20px;
+    height: 20px;
+    border: transparent solid 1px;
+    background-image: url("img/1590823-200.png");
+}
+
+.closeButton:hover{
+    border: red solid 1px;
+    background-image: url("img/1590823-200.png");
+}
+
 #questionForm label {
     display: block;
 }
 
 button {
     all: unset;
-    border: #ff7527 solid 1px;
+    border: #ff7527 solid 2px;
     padding: 5px;
     font-size: 18px;
 }
 
 button:hover {
     cursor: pointer;
-    border: #ff5a17 solid 2px;
+    border: #ff1c13 solid 2px;
+    border-radius: 10px;
+    transition: all 1s ease 0s
 }

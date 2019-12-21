@@ -23,7 +23,7 @@ app.post("/vanyaHouse", (req, res) => {
 });
 
 app.get("/", (_, res) => {
-    res.sendFile(path.join(rootDir, "/constructor.html"))
+    res.sendFile(path.join("/constructor.html"))
 });
 
 const server = app.listen(5000);

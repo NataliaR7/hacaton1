@@ -2,6 +2,7 @@ let questionCount = 0;
 
 function addQuestion() {
     questionCount++;
+    console.log(questionCount);
     let id = Math.random().toString().slice(2);
     let quizId = document.createElement('input');
     quizId.setAttribute('name', 'quizId');
@@ -30,8 +31,9 @@ function addQuestion() {
                 button.addEventListener('click', () => {
                     answerCount++;
                     let questionDiv = document.createElement('div');
+                    questionDiv.style.marginTop = '10px'
                     let span = document.createElement('span');
-                    span.textContent = answerCount.toString()+'.';
+                    span.textContent = answerCount.toString() + '.';
                     let input = document.createElement('input');
                     input.setAttribute('type', 'text');
                     input.setAttribute('name', 'answer' + answerCount);
@@ -45,7 +47,7 @@ function addQuestion() {
                 deleteButton.textContent = 'Удалить последний ответ';
                 deleteButton.addEventListener('click', () => {
                     let lastChild = answerContainer.lastChild;
-                    if (lastChild.tagName === 'DIV'){
+                    if (lastChild.tagName === 'DIV') {
                         lastChild.remove();
                         answerCount--;
                     }
@@ -81,5 +83,13 @@ function getRadioElement(text) {
     label.setAttribute('value', text);
     label.insertAdjacentElement('afterbegin', radioInput);
     return label;
+}
+
+function deleteLastQuestion() {
+    let questions = document.querySelectorAll('.questionItem');
+    questions[questions.length - 1].remove();
+    if (questions){
+        questionCount--;
+    }
 }
 

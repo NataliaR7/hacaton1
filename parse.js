@@ -6,10 +6,10 @@ let source = [
 let form = document.querySelector('.mainForm');
 
 for(let i = 0; i < source.length; i++) {
-    let label = document.createElement('label');
-    form.append(label);
+    let div = document.createElement('div');
+    form.append(div);
     let question = document.createTextNode(source[i].question);
-    label.append(question);
+    div.append(question);
     for(let j = 0; j < source[i].answer.length; j++) {
         let answer = document.createElement('input');
         switch (source[i].type) {
@@ -28,11 +28,13 @@ for(let i = 0; i < source.length; i++) {
                 answer.name = 'textAnswer';
                 break;
         }
-        label.append(answer);
+        let label = document.createElement('label');
+        label.append(answer)
         if(source[i].type !== 'text')
         {
             label.append(`${source[i].answer[j]}`);
         }
+        div.append(label);
     }
 }
 

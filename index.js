@@ -29,7 +29,7 @@ function addQuestion() {
                     span.textContent = answerCount.toString();
                     let input = document.createElement('input');
                     input.setAttribute('type', 'text');
-                    input.setAttribute('name', 'answer' + answerCount);
+                    input.setAttribute('name', 'answer' + questionCount + answerCount);
                     questionDiv.insertAdjacentElement('beforeend', span);
                     questionDiv.insertAdjacentElement('beforeend', input);
                     answerContainer.insertAdjacentElement('beforeend', questionDiv);
@@ -54,7 +54,7 @@ function getRadioElement(text) {
     label.textContent = text;
     let radioInput = document.createElement('input');
     radioInput.setAttribute('type', 'radio');
-    radioInput.setAttribute('name', 'questionType' + questionCount);
+    radioInput.setAttribute('name', 'questionType');
     radioInput.setAttribute('value', text);
     if (text === 'radio' || text === 'checkbox') {
         label.setAttribute('needAnswers', 'true')

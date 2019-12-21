@@ -1,12 +1,16 @@
 import * as path from "path";
 import express from "express";
 import WebSocket from "ws";
-
+import bodyParser from 'body-parser'
 
 const app = express();
 const rootDir = process.cwd();
 
+let questions = new Map();
+
 app.use(express.static(path.join(process.cwd(), "./")));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/setResults", (req, res) => {
     console.log(req);
@@ -14,8 +18,12 @@ app.post("/setResults", (req, res) => {
 });
 
 app.post("/vanyaHouse", (req, res) => {
+    //let response = JSON.parse(req);
+    // for (let q of req.body){
+    //     questions.set(q, req.body[q])
+    // }
+    console.log(req.body);
     res.redirect('./');
-    console.log(req);
 });
 
 app.get("/*", (_, res) => {
@@ -25,7 +33,7 @@ app.get("/*", (_, res) => {
 const server = app.listen(5000);
 
 
-let questions = new Map();
+
 
 const wss = new WebSocket.Server({
     noServer: true

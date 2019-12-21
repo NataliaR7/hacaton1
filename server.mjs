@@ -18,16 +18,12 @@ app.post("/setResults", (req, res) => {
 });
 
 app.post("/vanyaHouse", (req, res) => {
-    //let response = JSON.parse(req);
-    // for (let q of req.body){
-    //     questions.set(q, req.body[q])
-    // }
     console.log(req.body);
     res.redirect('./');
 });
 
-app.get("/*", (_, res) => {
-    res.sendFile(path.join(rootDir, "/constructor.html"))
+app.get("/", (_, res) => {
+    res.sendFile(path.join("/constructor.html"))
 });
 
 const server = app.listen(5000);

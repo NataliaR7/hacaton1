@@ -8,11 +8,11 @@ function addQuestion() {
     let question = document.createElement('input');
     question.setAttribute('type', 'text');
     question.placeholder = 'Введите вопрос';
+    question.setAttribute('value','question');
     div.insertAdjacentElement('beforeend', question);
-    let type = document.createElement('input');
-    type.setAttribute('type', 'radio');
     let typeArray = [getRadioElement('radio'), getRadioElement('checkbox'), getRadioElement('text')];
     for (let element of typeArray) {
+        element.setAttribute('value','itemType');
         element.addEventListener('change', () => {
             if (element.getAttribute('needAnswers') === 'true') {
                 let answerContainer = document.createElement('div');
@@ -60,7 +60,8 @@ function getRadioElement(text) {
     } else {
         label.setAttribute('needAnswers', 'false')
     }
-    label.insertAdjacentElement('afterbegin', radioInput)
+    label.setAttribute('itemType', text);
+    label.insertAdjacentElement('afterbegin', radioInput);
     return label;
 }
 

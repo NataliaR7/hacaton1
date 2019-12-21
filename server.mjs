@@ -13,8 +13,13 @@ app.post("/setResults", (req, res) => {
     res.redirect('./');
 });
 
+app.post("/vanyaHouse", (req, res) => {
+    res.redirect('./');
+    console.log(req);
+});
+
 app.get("/*", (_, res) => {
-    res.sendFile(path.join(rootDir, "/index.html"))
+    res.sendFile(path.join(rootDir, "/constructor.html"))
 });
 
 const server = app.listen(5000);

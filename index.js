@@ -60,12 +60,8 @@ function getRadioElement(text) {
     } else {
         label.setAttribute('needAnswers', 'false')
     }
-<<<<<<< HEAD
-    label.insertAdjacentElement('afterbegin', radioInput)
-=======
     label.setAttribute('itemType', text);
     label.insertAdjacentElement('afterbegin', radioInput);
->>>>>>> origin/startForm
     return label;
 }
 

@@ -24,9 +24,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> origin/startForm
 =======
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,8 +88,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.constructor.html">
 =======
+=======
+>>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
 =======
@@ -90,6 +103,9 @@
     </configuration>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
@@ -109,6 +125,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
+>>>>>>> origin/startForm
 =======
         <item itemvalue="JavaScript Debug.constructor.html (1)" />
 >>>>>>> origin/startForm
@@ -138,6 +158,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <workItem from="1576923047721" duration="986000" />
 >>>>>>> origin/startForm
@@ -146,6 +167,9 @@
 >>>>>>> origin/startForm
 =======
       <workItem from="1576923047721" duration="2156000" />
+>>>>>>> origin/startForm
+=======
+      <workItem from="1576923047721" duration="2525000" />
 >>>>>>> origin/startForm
     </task>
     <servers />
@@ -156,7 +180,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
 =======
@@ -174,6 +201,9 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm

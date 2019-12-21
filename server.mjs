@@ -1,20 +1,23 @@
+import * as path from "path";
 import express from "express";
 import WebSocket from "ws";
 
 
 const app = express();
+const rootDir = process.cwd();
 
-app.use(express.static(path.join(process.cwd(), "client")));
+app.use(express.static(path.join(process.cwd(), "./")));
 
-app.get("/setResults", (req, res) => {
+app.post("/setResults", (req, res) => {
     console.log(req);
+    res.redirect('./');
 });
 
 app.get("/*", (_, res) => {
-    res.send("Place(holder)");
+    res.sendFile(path.join(rootDir, "/index.html"))
 });
 
-const server = app.listen(port);
+const server = app.listen(5000);
 
 
 let questions = new Map();

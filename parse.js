@@ -1,4 +1,7 @@
-let source = [{type : 'radio', answer : ['a', 'b'], question : '11'}, {type : 'text', answer : [''], question : '222'}, {type : 'checkBox', answer : ['n', 'nn', 'nnn'], question : '333'}];
+let source = [
+    {type : 'radio', answer : ['a', 'b'], question : '11'},
+    {type : 'text', answer : [''], question : '222'},
+    {type : 'checkBox', answer : ['n', 'nn', 'nnn'], question : '333'}];
 
 let form = document.querySelector('.mainForm');
 

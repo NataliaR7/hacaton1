@@ -1,0 +1,23 @@
+{
+  "name": "hacaton1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node --experimental-modules server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaR7/hacaton1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/NataliaR7/hacaton1/issues"
+  },
+  "homepage": "https://github.com/NataliaR7/hacaton1#readme"
+}

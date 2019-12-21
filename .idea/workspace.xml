@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e81eb6cd-2e65-4c65-ac05-c8343f89d907" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/constructor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.constructor.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.constructor.html">
     <configuration name="constructor.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hacaton1/constructor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -63,10 +63,16 @@
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.constructor.html" />
+      <item itemvalue="JavaScript Debug.constructor.html (1)" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.test.js" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.constructor.html (1)" />
         <item itemvalue="JavaScript Debug.constructor.html" />
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
@@ -83,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576913937980</updated>
       <workItem from="1576913948841" duration="8857000" />
-      <workItem from="1576923047721" duration="3427000" />
+      <workItem from="1576923047721" duration="4941000" />
     </task>
     <servers />
   </component>

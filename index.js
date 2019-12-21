@@ -2,11 +2,11 @@ let questionCount = 0;
 
 function addQuestion() {
     questionCount++;
-    let id = Math.random().toString().slice(2) ;
+    let id = Math.random().toString().slice(2);
     let quizId = document.createElement('input');
-    quizId.setAttribute('name','quizId');
-    quizId.setAttribute('type','hidden');
-    quizId.setAttribute('value',id);
+    quizId.setAttribute('name', 'quizId');
+    quizId.setAttribute('type', 'hidden');
+    quizId.setAttribute('value', id);
     let form = document.querySelector('#questionForm');
     let div = document.createElement('div');
     div.classList.add('questionItem');
@@ -40,7 +40,18 @@ function addQuestion() {
                     answerContainer.insertAdjacentElement('beforeend', questionDiv);
                     div.insertAdjacentElement('beforeend', answerContainer);
                 });
+                let deleteButton = document.createElement('button');
+                deleteButton.setAttribute('type', 'button')
+                deleteButton.textContent = 'Удалить последний ответ';
+                deleteButton.addEventListener('click', () => {
+                    let lastChild = answerContainer.lastChild;
+                    if (lastChild.tagName === 'DIV'){
+                        lastChild.remove();
+                        answerCount--;
+                    }
+                })
                 answerContainer.insertAdjacentElement('beforeend', button);
+                answerContainer.insertAdjacentElement('beforeend', deleteButton);
                 if (!div.querySelector('#answerContainer')) {
                     div.insertAdjacentElement('beforeend', answerContainer);
                 }

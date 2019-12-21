@@ -1,0 +1,15 @@
+.questionContainer{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.questionItem{
+    border: black solid 1px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+#questionForm label {
+    display: block;
+}

@@ -29,6 +29,7 @@ function addQuestion() {
                     span.textContent = answerCount.toString();
                     let input = document.createElement('input');
                     input.setAttribute('type', 'text');
+                    input.setAttribute('name', 'answer' + answerCount);
                     //input.setAttribute('value', 'answer' + answerCount);
                     questionDiv.insertAdjacentElement('beforeend', span);
                     questionDiv.insertAdjacentElement('beforeend', input);

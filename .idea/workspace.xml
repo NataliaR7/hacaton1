@@ -23,9 +23,19 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VHdQ8TK3uCHlTznay3yW2koLV7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> origin/startForm
 =======
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,8 +77,11 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.constructor.html">
 =======
+=======
+>>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
   <component name="RunManager" selected="JavaScript Debug.constructor.html (1)">
@@ -76,6 +89,9 @@
       <method v="2" />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
@@ -92,6 +108,10 @@
       <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <item itemvalue="JavaScript Debug.constructor.html (1)" />
+>>>>>>> origin/startForm
 =======
         <item itemvalue="JavaScript Debug.constructor.html (1)" />
 >>>>>>> origin/startForm
@@ -117,11 +137,15 @@
       <workItem from="1576913948841" duration="8857000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <workItem from="1576923047721" duration="986000" />
 >>>>>>> origin/startForm
 =======
       <workItem from="1576923047721" duration="1949000" />
+>>>>>>> origin/startForm
+=======
+      <workItem from="1576923047721" duration="2156000" />
 >>>>>>> origin/startForm
     </task>
     <servers />
@@ -131,7 +155,10 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +173,9 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/startForm
+=======
 >>>>>>> origin/startForm
 =======
 >>>>>>> origin/startForm
